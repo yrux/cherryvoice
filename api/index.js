@@ -19,6 +19,7 @@ const homebanners = require('./home/banners')
 const testimonials = require('./home/testimonials')
 const partners = require('./home/partners')
 const newsletters = require('./general/newsletters')
+const inquiry = require('./general/inquiry')
 const config = require('./general/config')
 
 app.use(login)
@@ -26,6 +27,7 @@ app.use('/home/banner',homebanners)
 app.use(testimonials)
 app.use(partners)
 app.use(newsletters)
+app.use(inquiry)
 app.use(config)
 
 if (require.main === module) {

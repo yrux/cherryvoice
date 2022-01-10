@@ -14,8 +14,8 @@
         <b-nav-item to="/product">Products</b-nav-item>
         <b-nav-item href="#">Industries</b-nav-item>
         <b-nav-item href="#">Solutions</b-nav-item>
-        <b-nav-item href="#">Resources</b-nav-item>
-        <b-nav-item href="#">Support</b-nav-item>
+        <b-nav-item to="/resources">Resources</b-nav-item>
+        <b-nav-item to="/support">Support</b-nav-item>
         <b-nav-item v-if="isLogin===true" @click="logout">Logout</b-nav-item>
         
       </b-navbar-nav>
